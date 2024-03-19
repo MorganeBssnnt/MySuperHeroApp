@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "index.js",
+    "start": "nodemon App.js",
+    "dev": "App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
