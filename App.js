@@ -13,5 +13,10 @@ app.use('/superHeros', superheroRoutes);
 //Mise en place d'un console log pour indiquer que le serveur est en écoute sur le port que nous avons défini.
 app.listen(port, () => console.log(`En écoute sur le port ${port}!`));
 
+app.get('/', (req, res) => {
+    res.send('Welcome to MySuperHeroApp!');
+});
+
+
 //création de l'application express.js
 app.use(express.json());
